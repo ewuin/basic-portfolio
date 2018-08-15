@@ -17,15 +17,31 @@
 }
 
 .header {
-    background-color: rgb(27, 80, 194);
-    color: white;
-    height: 30px;
-    width: 150px;
-    text-align: center;
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    border-bottom: 2px solid gray;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    vertical-align: center;
 }
 
 #top-line {
     width: auto;
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    vertical-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border-top: 5px solid rgb(27, 80, 194);
+}
+
+body {
+    background-color: rgb(212, 204, 204);
 }
