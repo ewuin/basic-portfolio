@@ -2,6 +2,7 @@ body {
     background-color: rgb(212, 204, 204);
     margin: 0;
     padding: 0;
+    width: 960px;
 }
 
 .header {
@@ -9,9 +10,10 @@ body {
     background-color: #ffffff;
     width: 100%;
     top: 0px;
-    position: absolute;
+    position: fixed;
     border-bottom: 2px solid #cccccc; 
     font-family: "Georgia", "Times", "Times New Roman", serif;
+    /* bottom: 0; */
 }
 
 #photo {
@@ -22,26 +24,44 @@ body {
 }
 
 .about-container {
-    width: 600px;
+    width: 960px;
     box-sizing: border-box;
     margin: auto;
     border: 1px solid #cccccc;
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
-    'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-top: 50px;
     color: #777777;
+}
+
+/* .about-container { */
+    color: #777777;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    width: 960px;
+    height: 300px;
+    /* margin: 0 auto; */
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-top: 80px;
 }
 
 #irene {
     background-color: #4aaaa5;
     width: 150px;
-    height: absolute;
+    height: 50px;
     /* box-sizing: border-box; */
     color: white;
     padding: 50px;
-    font-family: "Georgia", Times, Times New Roman, serif;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    float: left;
+    margin: 100;
+    text-align: center;
+    /* padding: 15px; */
 
 }
 
@@ -62,3 +82,54 @@ body {
 }
 
 
+a {
+    color: #777777;
+}
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border-top: 5px solid #4aaaa5;
+}
+
+
+a {
+    color: #777777;
+}
+
+.navbar {
+    /* overflow: hidden; */
+    float: right;
+    position: relative;
+    color: #777777;
+    /* width: 100%; */
+    top: 100;
+    /* margin: 100; */
+}
+
+#nav-about {
+    float: right;
+    height: 25px;
+    width: 100px;
+    /* background-color: red; */
+    text-align: center;
+    /* border-right: 1px solid #cccccc; */
+}
+
+#nav-portfolio {
+    float: right;
+    height: 25px;
+    width: 100px;
+    /* background-color: blue; */
+    text-align: center;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+
+}
+
+#nav-contact {
+    float: right;
+    height: 25px;
+    width: 100px;
+    /* background-color: green; */
+    text-align: center;
+}
