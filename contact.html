@@ -5,45 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/contact.css"/>
+
 </head>
 
-<body>
+<body background="./assets/images/dust_scratches.png">
     <!--header section-->
     <div class="header">
-            <h1>Irene Rojas</h1>
+            <div class="irene-header"><h1>Irene Rojas</h1></div>
     
-            <div class="navbar">
-                <section id="about" href="./index2.html">About</section>
-                <section id="portfolio" href="./portfolio.html">Portfolio</section>
-                <section id="contact" href="./contact.html">Contact</section>
-            </div>
+        <!--navbar section-->
+        <div class="navbar">
+
+                <section id="about"><a href="./index.html">About</a></section>
+    
+                <section id="portfolio"><a href="./portfolio.html">Portfolio</a></section>
+    
+                <section id="contact"><a href="./contact.html">Contact</a></section>
+    
         </div>
+    </div>
+            <!--end navbar section-->        
     
         <!--contact section-->
-        <h3>Contact Form</h3>
+    <div class="container-contact">
 
-        <div class="container-contact">
+            <h1 id="contact-name">Contact Form</h1>
+
+            <hr>
+
+            <br>
+            
           <form action="/action_page.php">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
         
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-        
+                
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
         
             <input type="submit" value="Submit">
           </form>
-        </div>
+    </div>
 
 
 

@@ -1,138 +1,192 @@
 body {
-    background-color: rgb(212, 204, 204);
-    margin: 0;
-    padding: 0;
     width: 960px;
+    margin: 0 auto;
+    /* background-color: #777777; */
+    /* background-image: url("./assets/images/dust_scratches.png") */
+    background-repeat: repeat-x, repeat-y;
+    background-size: 100% auto;
+
 }
 
-a {
+/* all links */
+a{
     color: #777777;
+    text-decoration: none;
 }
+
+/* start header */
 .header {
-    height: 100px;
     background-color: #ffffff;
-    width: 100%;
-    top: 0px;
     position: fixed;
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    left: 0;
+    top: 0px;
     border-bottom: 2px solid #cccccc; 
-    font-family: "Georgia", "Times", "Times New Roman", serif;
-    /* bottom: 0; */
 }
 
-#photo {
-    width: 150px;
-    float: left;
-    padding-right: 15px;
-    padding-bottom: 5px;
-}
-
-.about-container {
-    width: 960px;
-    box-sizing: border-box;
-    margin: auto;
-    border: 1px solid #cccccc;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: white;
-    margin-top: 50px;
-    color: #777777;
-}
-
-/* .about-container { */
-    color: #777777;
-    box-sizing: border-box;
-    margin: auto;
-    position: relative;
-    width: 960px;
-    height: 300px;
-    /* margin: 0 auto; */
-    border: 1px solid #cccccc;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: white;
-    margin-top: 80px;
-}
-
-#irene {
-    background-color: #4aaaa5;
-    width: 150px;
-    height: 50px;
-    /* box-sizing: border-box; */
+.irene-header {
     color: white;
-    padding: 50px;
-    font-family: "Georgia", Times, "Times New Roman", serif;
-    float: left;
-    margin: 100;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 75px;;
     text-align: center;
-    /* padding: 15px; */
+    /* padding: 10px; */
+    z-index: 100;
+    box-sizing: border-box;
+    float: left;
+}
+/* end header */
 
+
+/* navbar */
+.navbar {
+    float: right;
+    width: 30%;
+    color: #777777;
+    z-index: 100;
+    position: absolute;
+    right: 0;
+    height: 25px;
+    bottom: 0;
+    margin-left: 960px;
 }
 
 #about {
+    float: right;
+    /* height: 25px; */
+    width: 75px;
+    text-align: center;
+}
+
+#portfolio {
+    float: right;
+    /* height: 25px; */
+    width: 75px;
+    text-align: center;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+}
+
+#contact {
+    float: right;
+    /* height: 25px; */
+    width: 75px;
+    text-align: center;
+}
+/* end navbar */
+
+
+/* start about */
+.container-about {
+    background-color: #ffffff;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: #777777;
+}
+
+#irene-photo {
+    width: 150px;
+    padding: 15px;
+    float: left;
+}
+
+#about-me {
     color: #4aaaa5;
 }
+/* end about */
+
+
+/* start contact - see also contact.css */
+#contact-name {
+    color: #4aaaa5;
+}
+
+.container-contact {
+    background-color: #ffffff;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: #777777;
+}
+/* end contact */
+
+
+/* start portfolio */
+.container-portfolio {
+    background-color: #ffffff;
+    margin-top: 100px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    color: #777777;
+}
+
+#portfolio-name {
+    color: #4aaaa5;
+}
+
+#box1 {
+    float: left;
+    background: #4aaaa5;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#box3 {
+    float: left;
+    background: green;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#box2 {
+    float: left;
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#box4 {
+    float: left;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+} 
+
+#box5 {
+    float: left;
+    background: pink;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+/* end portfolio */
+
 
 .footer {
     background-color: #666666;
     text-align: center;
-    /* vertical-align: center; */
     font-family: font-family: "Georgia", "Times", "Times New Roman", serif;
     position: absolute;
     bottom: 0;
     width: 100%;
     color: white;
     border-top: 5px solid #4aaaa5;
-}
-
-
-a {
-    color: #777777;
-}
-    bottom: 0;
-    width: 100%;
-    color: white;
-    border-top: 5px solid #4aaaa5;
-}
-
-
-a {
-    color: #777777;
-}
-
-.navbar {
-    /* overflow: hidden; */
-    float: right;
-    position: relative;
-    color: #777777;
-    /* width: 100%; */
-    top: 100;
-    /* margin: 100; */
-}
-
-#nav-about {
-    float: right;
-    height: 25px;
-    width: 100px;
-    /* background-color: red; */
-    text-align: center;
-    /* border-right: 1px solid #cccccc; */
-}
-
-#nav-portfolio {
-    float: right;
-    height: 25px;
-    width: 100px;
-    /* background-color: blue; */
-    text-align: center;
-    border-right: 1px solid #cccccc;
-    border-left: 1px solid #cccccc;
-
-}
-
-#nav-contact {
-    float: right;
-    height: 25px;
-    width: 100px;
-    /* background-color: green; */
-    text-align: center;
+    margin: 0 auto;
+    left: 0;
 }
