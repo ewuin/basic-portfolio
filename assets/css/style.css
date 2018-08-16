@@ -5,6 +5,9 @@ body {
     width: 960px;
 }
 
+a {
+    color: #777777;
+}
 .header {
     height: 100px;
     background-color: #ffffff;
