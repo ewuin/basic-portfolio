@@ -19,6 +19,7 @@ p {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+
 /* start header */
 .header {
     background-color: #ffffff;
@@ -141,49 +142,47 @@ p {
     padding-right: 15px;
     padding-bottom: 15px;
     color: #777777;
+    /* height: 900px; */
 }
 
 #portfolio-name {
     color: #4aaaa5;
 }
 
-#box1 {
+#irene1 {
     float: left;
-    background: #4aaaa5;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    /* height: 200px; */
+    margin: 20px;
+    /* position: relative; */
+}
+
+#irene3 {
+    float: left;
+    width: 250px;
+    /* height: 200px; */
+    margin: 20px;
+    /* position: relative; */
+}
+
+#irene2 {
+    float: left;
+    width: 250px;
+    /* height: 200px; */
     margin: 20px;
 }
 
-#box3 {
+#irene4 {
     float: left;
-    background: green;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-}
-
-#box2 {
-    float: left;
-    background: red;
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-}
-
-#box4 {
-    float: left;
-    background: blue;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    /* height: 200px; */
     margin: 20px;
 } 
 
-#box5 {
+#irene5 {
     float: left;
-    background: pink;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    /* height: 200px; */
     margin: 20px;
 }
 /* end portfolio */
