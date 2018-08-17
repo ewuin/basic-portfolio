@@ -1,12 +1,10 @@
 body {
     width: 960px;
     margin: 0 auto;
-    /* background-color: #777777; */
-    /* background-image: url("./assets/images/dust_scratches.png") */
-    background-repeat: repeat-x, repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
     background-size: 100%;
-    
-
+    box-sizing: border-box;
 }
 
 /* all links */
@@ -15,6 +13,7 @@ a{
     text-decoration: none;
 }
 
+/* paragraph text except footer */
 p {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -38,7 +37,6 @@ p {
     width: 200px;
     height: 75px;
     text-align: center;
-    /* padding: 10px; */
     /* z-index: 100; */
     box-sizing: border-box;
     /* float: left; */
@@ -64,14 +62,12 @@ p {
 
 #about {
     float: right;
-    /* height: 25px; */
     width: 75px;
     text-align: center;
 }
 
 #portfolio {
     float: right;
-    /* height: 25px; */
     width: 75px;
     text-align: center;
     border-left: 1px solid #777777;
@@ -80,7 +76,6 @@ p {
 
 #contact {
     float: right;
-    /* height: 25px; */
     width: 75px;
     text-align: center;
 }
@@ -99,7 +94,6 @@ p {
     width: 960px;
     margin: 0 auto;
     margin-top: 100px;
-
 }
 
 #irene-photo {
@@ -142,7 +136,6 @@ p {
     padding-right: 15px;
     padding-bottom: 15px;
     color: #777777;
-    /* height: 900px; */
 }
 
 #portfolio-name {
@@ -152,7 +145,6 @@ p {
 #irene1 {
     float: left;
     width: 250px;
-    /* height: 200px; */
     margin: 20px;
     /* position: relative; */
 }
@@ -160,7 +152,6 @@ p {
 #irene3 {
     float: left;
     width: 250px;
-    /* height: 200px; */
     margin: 20px;
     /* position: relative; */
 }
@@ -168,30 +159,29 @@ p {
 #irene2 {
     float: left;
     width: 250px;
-    /* height: 200px; */
     margin: 20px;
 }
 
 #irene4 {
     float: left;
     width: 250px;
-    /* height: 200px; */
     margin: 20px;
 } 
 
 #irene5 {
     float: left;
     width: 250px;
-    /* height: 200px; */
     margin: 20px;
 }
 /* end portfolio */
 
+#footer-text {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+}
 
 .footer {
     background-color: #666666;
     text-align: center;
-    font-family: "Georgia", "Times", "Times New Roman", serif;
     position: absolute;
     bottom: 0;
     width: 100%;
