@@ -67,8 +67,8 @@ p {
     right: 0;
     height: 25px;
     bottom: 0;
-    /* margin-left: 960px; */
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 #about {
